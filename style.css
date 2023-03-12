@@ -1,0 +1,63 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic);
+
+body {
+    font-family: "Roboto";
+    background: rgb(221, 221, 221);
+    display: flex;
+    margin-top: 200px;
+    margin-left: 180px;
+
+}
+
+.img {
+    width: 288px;
+    height: 438px;
+}
+
+.info {
+    margin-left: 140px;
+    margin-right: 200px;
+}
+
+.About {
+    font-size: 80px;
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+.position {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.designer {
+    color: rgba(0, 78, 181, 0.651);
+}
+
+.description {
+    line-height: 1.4em;
+    word-spacing: .1em;
+    letter-spacing: .1em;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.link {
+    margin-top: 23px;
+    width: 90px;
+    height: 35px;
+    background: rgb(65, 117, 243); 
+    border-radius: 7px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    width: 90px;
+    height: 35px;
+    font-size: 17px;
+    font-weight: 590;
+}
